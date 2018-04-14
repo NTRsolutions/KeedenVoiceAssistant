@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/imageabout">
+
+    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        tools:context="com.apkglobal.alice.about.Notes">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/text_about"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:height="35sp"
+            android:text="Save Notes and Reminders "
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_marginTopPercent="10%"
+            app:layout_widthPercent="90%" />
+
+        <TextView
+            android:id="@+id/call_para"
+            style="@style/text_about"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_about"
+            android:text="@string/notes"
+            android:textAlignment="center"
+            app:layout_widthPercent="90%" />
+
+
+        <TextView
+            style="@style/text_about"
+            android:layout_alignLeft="@+id/call_para"
+            android:layout_alignStart="@+id/call_para"
+            android:layout_below="@+id/call_para"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_background"
+            android:text="Takes notes of whatever you want, whatever the way you want"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_widthPercent="90%" />
+
+
+    </android.support.percent.PercentRelativeLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Samsara</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_about">About</string>
+
+    <string-array name="translate_data">
+        <item>Select A Language</item>
+        <item>English</item>
+        <item>Canadian</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Chineese</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+    </string-array>
+
+    <string name="about">Samsara is a smart Voice Assistant, who will help you in
+        your daily tasks and activities. I am sure you will love Samsara,Trust me,\n She is
+        Adorable ! \n\n
+    The Best Part: No commands. Feel free to ask Samsara anything as long as its related to the topic :P</string>
+
+    <string name="command">
+        Interact with Samsara using simple commands.
+        Samsara is a super cool Friend and Since, you talk with Friends Freely
+        \nFeel Free to chat with Samsara the way you want, Freedom from predefined, boring, hard to rem
+        ember Commands.
+        </string>
+
+
+    <string name="slide_3_title">Hello Food!</string>
+    <string name="slide_3_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_4_title">Movie Tickets</string>
+    <string name="slide_4_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_1_title">Voice Interactions</string>
+    <string name="slide_1_desc">Your Best Pal everytime !</string>
+
+    <string name="slide_2_title">Less Typing</string>
+    <string name="slide_2_desc">Spend Less time in typing and more for what you want !</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_navigate">Navigate</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="make_call">
+    \n 1. Call dad
+    \n\n 2. Connect with Samsara
+    \n\n 3. Connect to Samantha
+    \n\n 4. Hey Samsara make a call to Rajeev
+    \n\n 5. Place a call to Nitin
+    \n</string>
+
+
+    <string name="mood">
+    \n 1. I\'m Getting Bored Do you have some plan
+    \n\n 2. I\'m so Hungry
+    \n\n 3. Samsara I\'m getting so  bored, Save me !
+    \n\n 4. I feel like going outside today
+    \n\n 5. Plan a Trip
+    \n\n 6.Let\'s Go somewhere
+    \n\n 7.I feel like going for an outing today
+    \n</string>
+
+
+    <string name="open_apps">
+    \n 1. Open Instagram
+    \n\n 2. Could you open Facebook For me
+    \n\n 3. I wanna go for a Run, Open SamsungFit
+    \n\n 4. Samsara open Music for me
+    \n\n 5. Play some Beats
+    \n\n 6. Play some songs etc.
+   \n</string>
+
+
+    <string name="notes">
+    \n    Remind to play Golf !
+    \n\n  Hey Samsara Remind me to buy vegetables form the market
+    \n\n  Remember to buy some Fruits.
+    \n\n  Would you Remember To plan a Trip to Ladakh
+    \n\n  Note that I still need to get my Car Serviced.
+     \n
+    </string>
+
+
+    <string name="chat">
+    \n    Hello !
+        \n\n What can you Do For me ?
+    \n\n  What\'s your name
+    \n\n  How are you ?
+    \n\n  what are you doing
+    \n\n  How old are you
+    \n\n  Do you love me ?
+    \n\n  Who created you ?
+    \n\n  Are you Human ?\n
+    </string>
+    <string name="title_activity_side_menu">SideMenu</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

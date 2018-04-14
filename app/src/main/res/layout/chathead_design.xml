@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv2"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/tv2"
+        style="@style/buttons"
+        android:drawableRight="@drawable/icon"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:textAlignment="center"
+         android:padding="5dp"
+        app:layout_marginEndPercent="5%"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:id="@+id/tv3"
+        style="@style/buttons"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/icon_alice"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_marginStartPercent="2%"
+        app:layout_widthPercent="50%"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv3"
+        android:layout_alignBottom="@+id/tv3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_widthPercent="50%" />
+
+
+</android.support.percent.PercentRelativeLayout>

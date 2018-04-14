@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "244551258870",
+    "firebase_url": "https://alice-73b11.firebaseio.com",
+    "project_id": "alice-73b11",
+    "storage_bucket": "alice-73b11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244551258870:android:31e0d25ba97b335e",
+        "android_client_info": {
+          "package_name": "com.apkglobal.alice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244551258870-d4d45oejf3tabut6a12hvo8eaevsckac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apkglobal.alice",
+            "certificate_hash": "32db651a2f787fe4e7f13c1fb78a29fcae4087bb"
+          }
+        },
+        {
+          "client_id": "244551258870-kmfihs6bbhdjd3u55j1gl5rmr8grkcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm5_RmBn5FA9VSTcJPC0lzh_-45wPwuYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244551258870-kmfihs6bbhdjd3u55j1gl5rmr8grkcse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

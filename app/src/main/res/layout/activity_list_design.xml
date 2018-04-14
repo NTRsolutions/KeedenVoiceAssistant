@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imageabout"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.apkglobal.alice.ListDesign">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Reminders"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_marginTopPercent="1%" />
+
+    <Button
+        android:id="@+id/separator"
+        android:layout_height="1dp"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        app:layout_marginTopPercent="0.75%"
+        app:layout_widthPercent="50%" />
+
+    <!-- ********************************************************** -->
+
+    <Button
+        android:id="@+id/separator2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/separator"
+        android:background="#FFFFFF"
+        app:layout_marginTopPercent="10%" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/notelistview"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/separator2"
+        android:background="@drawable/listview"
+        android:cacheColorHint="#FFFFFF"
+        app:layout_heightPercent="55%"
+        app:layout_marginTopPercent="5%" />
+
+    <Button
+        android:id="@+id/separator3"
+        android:layout_height="1dp"
+        android:layout_below="@id/notelistview"
+        android:background="#FFFFFF"
+        app:layout_marginTopPercent="5%"
+        app:layout_widthPercent="100%" />
+
+    <!-- ********************************************** -->
+
+    <Button
+        android:id="@+id/btn_delete_notes"
+        style="@style/buttons"
+        android:layout_below="@+id/separator3"
+        android:background="@drawable/btn_background"
+        android:text="Clear All"
+        app:layout_marginTopPercent="10%"
+        app:layout_widthPercent="70%"
+
+        />
+
+</android.support.percent.PercentRelativeLayout>

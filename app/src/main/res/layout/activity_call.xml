@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imageabout"
+    tools:context="com.apkglobal.alice.about.Call"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <TextView
+        style="@style/text_about"
+        android:background="@drawable/btn_background"
+        android:text="Connect with People "
+        android:textAlignment="center"
+        app:layout_widthPercent="90%"
+        android:height="35sp"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="10%"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        style="@style/text_about"
+        android:background="@drawable/text_about"
+        android:text="@string/make_call"
+        android:layout_marginTop="5dp"
+        app:layout_widthPercent="90%"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/call_para"/>
+
+
+    <TextView
+        style="@style/text_about"
+        android:background="@drawable/btn_background"
+        android:text="Or use any sentence of your Choice"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginTop="16dp"
+        app:layout_widthPercent="90%"
+        android:layout_below="@+id/call_para"
+        android:layout_alignLeft="@+id/call_para"
+        android:layout_alignStart="@+id/call_para" />
+
+
+</android.support.percent.PercentRelativeLayout>

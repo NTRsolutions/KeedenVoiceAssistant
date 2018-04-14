@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/imageabout"
+    android:layout_height="wrap_content">
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:context="com.apkglobal.alice.about.lag_saver">
+
+    <Button
+            android:id="@+id/btn_call"
+            style="@style/buttons"
+            android:background="@drawable/btn_background"
+            android:text="Make Call"
+            app:layout_widthPercent="80%"/>
+
+        <Button
+            android:id="@+id/btn_call2"
+            style="@style/buttons"
+            android:layout_below="@id/btn_call"
+            android:background="@drawable/btn_background"
+            android:text="say --Clean-- to Clear Chat "
+            app:layout_widthPercent="80%"/>
+
+        <Button
+            android:id="@+id/btn_apps"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_call2"
+            android:background="@drawable/btn_background"
+            android:text="Open Apps "
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_email"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_apps"
+            android:background="@drawable/btn_background"
+            android:text="Send Emails"
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_text"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_email"
+            android:background="@drawable/btn_background"
+            android:text="Send Messages "
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_chat"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_text"
+            android:background="@drawable/btn_background"
+            android:text="Chat With Samsara "
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_cab"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_chat"
+            android:background="@drawable/btn_background"
+            android:text="Book Cabs "
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_mood"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_cab"
+            android:background="@drawable/btn_background"
+            android:text="Perform Action According to Mood "
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_bt"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_mood"
+            android:background="@drawable/btn_background"
+            android:text="Turn Bluetooth On/Off "
+            app:layout_widthPercent="80%" />
+
+        <Button
+            android:id="@+id/btn_note"
+            style="@style/buttons"
+            android:layout_below="@+id/btn_bt"
+            android:background="@drawable/btn_background"
+            android:text="Take Notes and Reminders "
+            app:layout_widthPercent="80%" />
+
+    </android.support.percent.PercentRelativeLayout>
+</ScrollView>

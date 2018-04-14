@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/imageabout"
+    android:paddingBottom="20dp">
+
+    <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        tools:context="com.apkglobal.alice.about.Call"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/text_about"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:height="55sp"
+            android:background="@drawable/btn_background"
+            android:text="Perform Actions According to your Mood "
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_marginTopPercent="10%"
+            app:layout_widthPercent="90%" />
+
+        <TextView
+            android:id="@+id/call_para"
+            style="@style/text_about"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/text_about"
+            android:text="@string/mood"
+            android:textAlignment="center"
+            app:layout_widthPercent="90%" />
+
+
+        <TextView
+            style="@style/text_about"
+            android:layout_alignLeft="@+id/call_para"
+            android:layout_alignStart="@+id/call_para"
+            android:layout_below="@+id/call_para"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_background"
+            android:text="Or Use you Own Sentences"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            app:layout_widthPercent="90%" />
+
+
+    </android.support.percent.PercentRelativeLayout>
+</ScrollView>

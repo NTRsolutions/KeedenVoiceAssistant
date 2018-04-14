@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_email"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_feature"
+            android:icon="@drawable/magic"
+            android:title="Features" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/memo"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/nav_adapt"
+            android:icon="@drawable/ic_note"
+            android:title="Adaptive Learning" />
+
+        <item
+            android:id="@+id/nav_translate"
+            android:icon="@drawable/microphone"
+            android:title="Translate"
+            />
+
+        <item
+            android:id="@+id/nav_Infinity"
+            android:icon="@drawable/infinity"
+            android:title="INFINITY"
+            />
+
+        <!--<item
+            android:id="@+id/nav_developer"
+            android:icon="@drawable/code"
+            android:title="Meet Developer"
+            />-->
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>

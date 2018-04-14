@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/imageabout"
+    android:layout_height="wrap_content">
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        tools:context="com.apkglobal.alice.about.About">
+
+        <TextView
+            android:id="@+id/para1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/about"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+
+        <TextView
+            android:id="@+id/para2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/para1"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/command"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_examples"
+            style="@style/buttons"
+            android:layout_below="@+id/para2"
+            android:background="@drawable/btn_background"
+            android:text="Show me some Examples "
+            app:layout_widthPercent="80%" />
+
+    </android.support.percent.PercentRelativeLayout>
+</ScrollView>
